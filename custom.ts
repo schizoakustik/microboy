@@ -1,16 +1,23 @@
 /**
  * Micro:boy
  */
+
+enum Axis {
+    //%block="x"
+    x,
+    //%block="y"
+    y
+}
+
 //% weight=100 color=#0fbc11 icon=""
 namespace microboy {
     /**
-     * TODO: describe your function here
-     * @param n describe parameter here, eg: 5
-     * @param s describe parameter here, eg: "Hello"
-     * @param e describe parameter here
+     * Read the position of the joystick
+     * @param axis select x or y axis to read
+     
      */
     //% block
-    export function foo(n: number, s: string): void {
+    export function readJoystick(axis: Axis): void {
         // Add code here
     }
 }
