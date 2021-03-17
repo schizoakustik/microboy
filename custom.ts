@@ -3,11 +3,12 @@
  */
 
 enum Axis {
-    //%block="x"
-    x,
-    //%block="y"
-    y
+    //% block="x"
+    X,
+    //% block="y"
+    Y
 }
+//% blockNamespace=microboy
 
 //% weight=100 color=#0fbc11 icon=""
 namespace microboy {
@@ -17,7 +18,8 @@ namespace microboy {
      
      */
     //% block
-    export function readJoystick(axis: Axis): void {
-        // Add code here
+    export function readJoystick(axis: Axis): number {
+        let p = [AnalogPin.P0, AnalogPin.P1]
+        return pins.analogReadPin(p[axis])
     }
 }
