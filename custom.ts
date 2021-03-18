@@ -13,7 +13,7 @@ enum Axis {
 //% weight=100 color=#0fbc11 icon="\uf11b"
 namespace microboy {
     /**
-     * Read the position of the joystick
+     * Return the position of the joystick
      * @param axis select x or y axis to read
      
      */

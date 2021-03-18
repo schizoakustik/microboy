@@ -1,6 +1,13 @@
 
 > Open this page at [https://schizoakustik.github.io/microboy/](https://schizoakustik.github.io/microboy/)
 
+# micro:boy
+
+## Description
+
+micro:boy is basically a micro:bit with a 2-axis pot and a speaker added to make a handheld game console.
+This extension is to ease the handling of the joystick when creating games for the micro:boy.
+
 ## Usage
 
 ### Read joystick #microboyreadjoystick
