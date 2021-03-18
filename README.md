@@ -1,6 +1,15 @@
 
 > Open this page at [https://schizoakustik.github.io/microboy/](https://schizoakustik.github.io/microboy/)
 
+## Usage
+
+### Read joystick #microboyjoystick
+```blocks
+microboy.readJoystick(axis)
+```
+Return analog value on x or y axis.
+Center is 594. Full left and up is 1023, right and down is 173.
+
 ## Use as Extension
 
 This repository can be added as an **extension** in MakeCode.

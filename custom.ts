@@ -17,7 +17,7 @@ namespace microboy {
      * @param axis select x or y axis to read
      
      */
-    //% block
+    //% block="joystick on axis %axis"
     export function readJoystick(axis: Axis): number {
         let p = [AnalogPin.P0, AnalogPin.P1]
         return pins.analogReadPin(p[axis])
