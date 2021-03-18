@@ -10,7 +10,7 @@ enum Axis {
 }
 //% blockNamespace=microboy
 
-//% weight=100 color=#0fbc11 icon=""
+//% weight=100 color=#0fbc11 icon="\uf11b"
 namespace microboy {
     /**
      * Read the position of the joystick
